@@ -24,14 +24,20 @@ button {
 
 .section-image {
   border-radius: 16px;
+  padding: 5px;
 }
 
 .main-section {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   max-height: 1200px;
   max-width: 1200px;
   width: 100vw;
   height: 100vh;
+  padding: 25px;
+}
+
+.main-section__title {
+  font-size: 3rem;
 }
